@@ -7,7 +7,7 @@ let minutes = +input.shift();
 let newMinutes = minutes - 45;
 
 if (newMinutes < 0) {
-    newMinutes += 60;
+    newMinutes += 60; 
 
     if (hour === 0) {
         hour = 23;

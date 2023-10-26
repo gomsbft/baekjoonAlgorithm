@@ -5,7 +5,7 @@ const N = Number(input.shift());
 let sum = 0;
 
 for (let A = 1; A <= N; A++) {
-    sum = A + sum;
+    sum += A;
 }
 
 console.log(sum);
